@@ -11,7 +11,13 @@ public class Cadenas {
         */
 
         //NUEVO CODIGO, PEDIR NOMBRE Y APELLIDO Y LOS IMPRIME
-        
+        Scanner almacenarNombre = new Scanner(System.in);
+        System.out.print("Escribe nombre(s): ");
+        String nombre = almacenarNombre.nextLine();
 
+        System.out.print("Escribe apellido(s): ");
+        String apellidos = almacenarNombre.nextLine();
+
+        System.out.println("Nombre completo: " + nombre + " " + apellidos);
     }
 }
